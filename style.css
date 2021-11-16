@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    background: linear-gradient(90deg, #ff4f5a, #005c79);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.main {
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 1300px;
+}
+
+img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 68vh;
+    background-color: #385A64;
+    margin: auto;
+    border-radius: 10px;
+    min-height: 456px;
+    max-height: 500px;
+    max-width: 620px;
+    min-width: 300px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.login-form {
+    width: 100%;
+    height: 70%;
+    margin-top: 3rem;
+}
+
+div.common-input {
+    width: 95%;
+    height: 15%;
+    margin: 1.5rem auto;
+}
+
+input , button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    font-size: 1.2rem;
+}
+
+input {
+    padding-left: 1rem;
+}
+
+input:hover ,
+input:focus {
+    border: 1px solid #005c79;
+}
+
+button {
+    background-color: #ff4f5a;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(248, 76, 87);
+}
+
+.text {
+    text-align: center;
+    margin-top: 3.5rem;
+    color: white;
+}
+
+.text a {
+    color: #ff4f5a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 40rem){
+    h1 {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 70rem){
+    h1 {
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .container {
+        justify-content: space-between;
+        text-align: center;
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    div.chat-image {
+        width: 50%;
+        height: 60vh;
+        background-color: khaki;
+        min-width: 440px;
+        /* max-height: 800px; */
+        min-height: 456px;
+        /* max-height: 800px; */
+    }
+
+    img {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .main-container {
+        margin: auto 4rem auto 0;
+        max-width: 500px;
+        max-height: 600px;
+        min-height: 456px;
+        min-width: 270px;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .text {
+        margin-top: 4rem;
+    }
+}
